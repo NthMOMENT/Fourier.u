@@ -15,6 +15,7 @@
 | **[OpenZeppelin ERC20](reports/ERC20.md)** | Token Standard | ~51,400 | ~51,170 | **~0.4%** | ~$46 |
 | **[Aave V4 Hub](reports/AaveV4_Hub.md)** | DeFi Lending Hub | ~185,400 | ~185,000 | **~0.67%** | ~$151,000/mo |
 | **[Notional V3](reports/NotionalV3.md)** | Fixed Rate Lending | ~380,000 | ~355,000 | **~6.6%** | ~$25,000/trade |
+| **[Centrifuge V3.1](reports/CentrifugeV3.md)** | Asset Tokenization | ~310,000 | ~309,400 | **~0.19%** | ~$600/tx |
 *\*Estimates based on 10,000 tx/month at 20 gwei and $1,700/ETH. Actual savings scale with protocol volume and gas prices.*
 
 ---
