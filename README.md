@@ -1,4 +1,4 @@
-# ⚡ Gastimizer | Professional Solidity Gas Optimization
+# ![Fourier](link-to-your-image) | Professional Solidity Gas Optimization
 
 > Advanced EVM gas optimization for production smart contracts. Reduce deployment and runtime costs with verified, test-preserving code adjustments.
 
