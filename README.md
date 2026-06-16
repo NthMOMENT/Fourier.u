@@ -25,7 +25,7 @@
 ## 🔍 Case Study: Compound V2 `CErc20.sol`
 
 **Target:** [Compound Finance CErc20](https://github.com/compound-finance/compound-protocol/blob/master/contracts/CErc20.sol)  
-**Scope:** Advanced EVM opcode & storage optimization — zero logic changes  
+**Scope:** Advanced EVM opcode & storage optimization, zero logic changes  
 **Verification:** Syntactic modifications validated against original control flow
 
 ### Optimization Summary
