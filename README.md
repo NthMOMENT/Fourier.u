@@ -174,7 +174,7 @@ All contracts go through a structured, verification-first process:
 
 ## 📬 Contact
 
-**Portfolio:** [github.com/NthMOMENT/Gas-Optimization-Portfolio](https://github.com/NthMOMENT/Gas-Optimization-Portfolio)
+**Portfolio:** [github.com/NthMOMENT/Fourier.u](https://github.com/NthMOMENT/Fourier.u)
 
 To initiate a request, provide:
 - Contract source code or verified Etherscan link
