@@ -25,6 +25,7 @@
 | **[Lido stETH + WithdrawalQueue](reports/Lido.md)** | Liquid Staking | ~56,400 | ~56,000 | **~0.7%** | ~$55,000/mo |
 | **[Aerodrome Slipstream](reports/AerodromeSlipstream.md)** | Concentrated DEX | ~195,000 | ~194,300 | ~0.36% | ~$663K/mo mainnet |
 | **[Folks Finance Hub](reports/FolksHub.md)** | Cross-Chain Lending | ~112,400 | ~110,300 | ~1.9% | ~$693K/mo |
+| **[GMX Synthetics OrderHandler](reports/GMXOrderHandler.md)** | Perp DEX | ~185,000 | ~184,400 | ~0.3% | ~$830K/mo |
 *\*Estimates based on 10,000 tx/month at 20 gwei and $1,700/ETH. Actual savings scale with protocol volume and gas prices.*
 
 ---
