@@ -1,7 +1,7 @@
 
 <img width="800" height="200" alt="Fourier Landscape 1600x400" src="https://github.com/user-attachments/assets/894e9daa-dee9-4658-b877-faab92019cd6" /> 
 
-# Professional Solidity Gas Optimization
+# Professional Solidity Gas Optimization and Beyond
 
 > Advanced EVM gas optimization for production smart contracts. Reduce deployment and runtime costs with verified, test-preserving code adjustments.
 
@@ -24,6 +24,7 @@
 | **[Uniswap V3 Pool](reports/UniswapV3.md)** | Concentrated Liquidity DEX | ~195,000 | ~194,400 | **~0.3%** | ~$500/swap |
 | **[Lido stETH + WithdrawalQueue](reports/Lido.md)** | Liquid Staking | ~56,400 | ~56,000 | **~0.7%** | ~$55,000/mo |
 | **[Aerodrome Slipstream](reports/AerodromeSlipstream.md)** | Concentrated DEX | ~195,000 | ~194,300 | ~0.36% | ~$663K/mo mainnet |
+| **[Folks Finance Hub](reports/FolksHub.md)** | Cross-Chain Lending | ~112,400 | ~110,300 | ~1.9% | ~$693K/mo |
 *\*Estimates based on 10,000 tx/month at 20 gwei and $1,700/ETH. Actual savings scale with protocol volume and gas prices.*
 
 ---
@@ -31,7 +32,7 @@
 ## 🔍 Case Study: Compound V2 `CErc20.sol`
 
 **Target:** [Compound Finance CErc20](https://github.com/compound-finance/compound-protocol/blob/master/contracts/CErc20.sol)  
-**Scope:** Advanced EVM opcode & storage optimization, zero logic changes  
+**Scope:** Advanced EVM opcode & storage optimization with zero logic changes  
 **Verification:** Syntactic modifications validated against original control flow
 
 ### Optimization Summary
@@ -164,11 +165,11 @@ sweepToken()    | 2,500     | 2,435     | -65
 
 All contracts go through a structured, verification-first process:
 
-1. **Static Analysis** — Slither + Solhint baseline filtering
-2. **Advanced LLM Audit** — Targeted EVM opcode, storage, and control flow review
-3. **Test Synthesis** — Automated Foundry test generation for untested codebases
-4. **Verification** — Optimized diffs run against original test suite
-5. **Delivery** — Full report, gas diff, and copy-paste ready code snippets
+1. **Static Analysis**: Slither + Solhint baseline filtering
+2. **Advanced LLM Audit**: Targeted EVM opcode, storage, and control flow review
+3. **Test Synthesis**: Automated Foundry test generation for untested codebases
+4. **Verification**: Optimized diffs run against original test suite
+5. **Delivery**: Full report, gas diff, and copy-paste ready code snippets
 
 ---
 
